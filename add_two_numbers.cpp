@@ -25,7 +25,8 @@ int main() {
 
     // output
     std::cout << "" << std::endl;
-    std::cout << "The sum of both integers is " << sumOfIntegers;
+    std::cout << firstInteger << " + " << secondInteger
+              << " = " << sumOfIntegers;
 
     std::cout << "\nDone." << std::endl;
 }
